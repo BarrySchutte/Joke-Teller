@@ -19,10 +19,10 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('./robot.gif');
-    background-size: contain;
+    background: url('./giphy.gif');
+    background-size: 50%;
     background-repeat: no-repeat;
-    background-position: left center;
+    background-position: bottom left;
 }
 
 button {
@@ -33,12 +33,13 @@ button {
     font-family: 'Courier New', Courier, monospace;
     font-size: 2rem;
     color: #fff;
-    background: #ff3482;
+    background: #121212;
     border: none;
     border-radius: 0.5rem;
     box-shadow: 0.2rem 0.2rem 2rem 1rem rgba(0, 0, 0, 0.2);
     position: absolute;
-    bottom: 15rem;
+    bottom: 10rem;
+    left: 45%;
 }
 
 button:hover {
@@ -46,7 +47,7 @@ button:hover {
 }
 
 button:active {
-    transform: scale(0.98);
+     transform: scale(0.98);
 }
 
 button:disabled {
@@ -58,7 +59,7 @@ button:disabled {
 /* Media Query: Tablet or Smaller */
 @media screen and (max-width: 1000px) {
     .container {
-        background-size: cover;
-        background-position: center center;
+        background-size: 70rem;
+        background-position: bottom left;
     }
 }
